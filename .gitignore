@@ -1,52 +1,23 @@
-# Prerequisites
-*.d
+# ignore everything
+*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# unignore everything that is not a directory
+!*/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# unignore everything that has a file extension
+!*.*
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# ignore debug files
+**.dSYM/
+**.su
+**.idb
+**.pdb
 
 # Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+**.dll
+**.so
+**.so.*
+**.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# ignore VSCode settings
+**.vscode/
