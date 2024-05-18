@@ -18,6 +18,3 @@
 **.so
 **.so.*
 **.dylib
-
-# ignore VSCode settings
-**.vscode/
