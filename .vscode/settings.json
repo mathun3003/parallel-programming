@@ -6,5 +6,9 @@
     "code-runner.saveFileBeforeRun": true,
     "code-runner.executorMapByFileExtension": {
         ".c": "cd $workspaceRoot && clang -o $fileNameWithoutExt $fullFileName -framework OpenCL && ./$fileNameWithoutExt"
-    }
+    },
+    "files.associations": {
+        "math.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "/opt/homebrew/bin/gcc-13"
 }
